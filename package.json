@@ -1,0 +1,19 @@
+{
+  "name": "node-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vijay",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "graphql": "^16.8.1",
+    "graphql-http": "^1.22.1",
+    "instagram-graph-api": "^6.1.0",
+    "ruru": "^2.0.0-beta.11"
+  }
+}
