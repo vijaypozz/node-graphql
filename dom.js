@@ -66,7 +66,90 @@ function convertHtml(originalDescription) {
 
 
 
-const html = `<div><span style=font-size: 15.4px;>Nādabhṛṅga is very pleased to bring to you a sparkling, scintillating recording of Sri Palghat K V Narayanaswamy, performed sometime in 1961 for All India Radio, Bangalore.&nbsp; Sri KVN's silken smooth voice glides and soars like Shelley's skylark.</span></div><div><span style=font-size: 15.4px;><br></span></div><div><span style=font-size: 15.4px;>Higher still and higher</span></div><div><span style=font-size: 15.4px;>&nbsp; &nbsp; &nbsp; &nbsp; From the earth thou springest,</span></div><div><span style=font-size: 15.4px;>&nbsp; &nbsp; &nbsp; Like a cloud of fire;</span></div><div><span style=font-size: 15.4px;>&nbsp; &nbsp; &nbsp; &nbsp; The blue deep thou wingest,</span></div><div><span style=font-size: 15.4px;>And singing still dost soar, and soaring ever singest.</span></div><div><span style=font-size: 15.4px;><br></span></div><div><span style=font-size: 15.4px;>These lines very aptly describe what one feels on listening to this recording. The pristine recording quality (except in certain sections) makes it all the more enjoyable. We are very glad to share this recording in connection with the one year anniversary of starting this channel. The programme details are:</span></div><div><span style=font-size: 15.4px;><br></span></div><div><span style=font-size: 15.4px;>Palghat K V Narayanaswamy</span></div><div><span style=font-size: 15.4px;>V Thyagarajan - Violin</span></div><div><span style=font-size: 15.4px;>Palghat R Raghu - Mridangam</span></div><div><span style=font-size: 15.4px;><br></span></div><div><span style=font-size: 15.4px;>1. Śrī Cāmuṇḍeśvarī - Kannaḍā - Ādi - Mahārāja Jayacāmarāja Oḍeyār [00:00]</span></div><div><span style=font-size: 15.4px;>2. Tani Āvartana [05:23]</span></div><div><span style=font-size: 15.4px;>3. Palukavadēmirā - Dēvamanōhari - Ādi - Mysūrū Vāsudevācār [09:58]</span></div><div><span style=font-size: 15.4px;>4. Brōcēvārevarurā - Khamās - Ādi - Mysūrū Vāsudevācār [15:57]</span></div>`;
+const html = `<table class=MsoTableGrid border=0 cellspacing=0 style=background-color: rgb(255, 255, 255); font-size: 15.4px; border: none;>
+<tbody>
+   <tr>
+      <td width=638 valign=top style=width: 478.8pt; padding: 0pt 5.4pt; border-width: initial; border-style: none; border-color: initial;>
+      <p class=MsoNormal style=margin-bottom: 0pt;>
+         <font face=arial, helvetica, sans-serif style=font-size: 14px;>दशहरा भगवान राम&nbsp;के राक्षस रावण को हराने के बाद वापस घर आने की खुशी का प्रतीक है। भव्य समारोह के अलावा, कई स्वादिष्ट व्यंजनों को तैयार किया जाता है&nbsp;क्योंकि लोग एक-दूसरे को बधाई देते हैं।
+         <o:p></o:p>
+         </font>
+      </p>
+      <p class=MsoNormal style=margin-bottom: 0pt;>
+         <o:p><font face=arial, helvetica, sans-serif style=font-size: 14px;>&nbsp;</font></o:p>
+      </p>
+      </td>
+   </tr>
+   <tr>
+      <td width=638 valign=top style=width: 478.8pt; padding: 0pt 5.4pt; border-width: initial; border-style: none; border-color: initial;>
+      <p class=MsoNormal style=margin-bottom: 0pt;>
+         <font face=arial, helvetica, sans-serif style=font-size: 14px;>बेसन लड्डू हर घर की मिठाई की सूची का एक अनिवार्य हिस्सा है। बेसन, घी और चीनी के साथ बनाया गया, यह लड्डू युवा और बूढों दोनों द्वारा समान रूप से पसंद किया जाता है।
+         <o:p></o:p>
+         </font>
+      </p>
+      </td>
+   </tr>
+   <tr>
+      <td width=638 valign=top style=width: 478.8pt; padding: 0pt 5.4pt; border-width: initial; border-style: none; border-color: initial;>
+      <p class=MsoNormal style=margin-bottom: 0pt;>
+         <o:p><font face=arial, helvetica, sans-serif style=font-size: 14px;>&nbsp;</font></o:p>
+      </p>
+      </td>
+   </tr>
+   <tr>
+      <td width=638 valign=top style=width: 478.8pt; padding: 0pt 5.4pt; border-width: initial; border-style: none; border-color: initial;>
+      <p class=MsoNormal style=margin-bottom: 0pt;>
+         <font face=arial, helvetica, sans-serif style=font-size: 14px;>इस एपिसोड में हम बेसन के लड्डू बनाना सिखने जा रहे हैं।
+         <o:p></o:p>
+         </font>
+      </p>
+      <p class=MsoNormal style=margin-bottom: 0pt;><font face=arial, helvetica, sans-serif style=font-size: 14px;><br></font></p>
+      <p class=MsoNormal>
+         <font face=arial, helvetica, sans-serif style=font-size: 14px;><b>तैयारी का समय</b>&nbsp;: 5मिनट
+         <o:p></o:p>
+         </font>
+      </p>
+      <p class=MsoNormal>
+         <font face=arial, helvetica, sans-serif style=font-size: 14px;><b>पकाने का समय</b>&nbsp;: 18मिनट
+         <o:p></o:p>
+         </font>
+      </p>
+      <p class=MsoNormal><font face=arial, helvetica, sans-serif style=font-size: 14px;><b>कुल समय</b>&nbsp;: 23मिनट</font></p>
+      <p class=MsoNormal>
+         <font face=arial, helvetica, sans-serif style=font-size: 14px;><b><u>सामग्री&nbsp;(4 व्यक्तियों के लिए)</u></b>
+         <o:p></o:p>
+         </font>
+      </p>
+      <p class=MsoNormal></p>
+      <ul>
+         <li><font face=arial, helvetica, sans-serif style=font-size: 14px;>बेसन : 1कप</font></li>
+         <li><font face=arial, helvetica, sans-serif style=font-size: 14px;>पिसी हुई चीनी : 1 1/2कप</font></li>
+         <li><font face=arial, helvetica, sans-serif style=font-size: 14px;>इलायची&nbsp;पाउडर&nbsp;: 1 बड़ा चम्मच</font></li>
+         <li><font face=arial, helvetica, sans-serif style=font-size: 14px;>किशमिश : 1/2 कप</font></li>
+         <li><font face=arial, helvetica, sans-serif style=font-size: 14px;><span style=background: transparent; color: rgb(34, 34, 34);>&nbsp;</span><span style=background: transparent; color: rgb(34, 34, 34);>गाय का शुद्ध घी</span><span style=background: transparent; color: rgb(34, 34, 34);>;&nbsp;</span><span style=background: transparent; color: rgb(34, 34, 34);>आशिरवाद स्वस्ति&nbsp;</span>: 1 कप</font></li>
+      </ul>
+      <b style=font-size: 14px; font-family: arial, helvetica, sans-serif; background-color: transparent;><u>विधि</u></b><br>
+      <ul>
+         <li><font face=arial, helvetica, sans-serif style=font-size: 14px;>सूखे बेसन को भूनते रहें।</font></li>
+         <li><font face=arial, helvetica, sans-serif style=font-size: 14px;>लगातार धीरे-धीरे चलाते&nbsp;रहें।</font></li>
+         <li><font face=arial, helvetica, sans-serif style=font-size: 14px;>घी&nbsp;को&nbsp;पिघलाएं।</font></li>
+         <li><font face=arial, helvetica, sans-serif style=font-size: 14px;>पिघला&nbsp;हुआ&nbsp;घी&nbsp;डालें।</font></li>
+         <li><font face=arial, helvetica, sans-serif style=font-size: 14px;>चूल्हे से पैन को हटा दें।</font></li>
+         <li><font face=arial, helvetica, sans-serif style=font-size: 14px;>चीनी,&nbsp;इलायची, किशमिश और ड्राई फ्रूट डालें।</font></li>
+         <li><font face=arial, helvetica, sans-serif style=font-size: 14px;>छोटे-छोटे लड्डू बना लें।</font></li>
+         <li><font face=arial, helvetica, sans-serif style=font-size: 14px;><span style=background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;>एक बॉउल में रखकर भगवान को भोग लगाए</span>।</font></li>
+         <li><font face=arial, helvetica, sans-serif style=font-size: 14px;>लड्डू के&nbsp;<span style=background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;>नैवेद्यम को अपने परिवार के सदस्यों के साथ साझा करें।</span></font></li>
+      </ul>
+      <p></p>
+      <p class=MsoNormal style=margin-bottom: 0pt;>
+         <font face=arial, helvetica, sans-serif style=font-size: 14px;>
+         <o:p></o:p>
+         </font>
+      </p>
+      </td>
+   </tr>
+</tbody>
+</table>`;
 
 console.log(convertHtml(html));
 
