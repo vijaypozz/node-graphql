@@ -232,54 +232,52 @@ async function fetchDataAndWriteCSV() {
     WITH split_locales AS (
       SELECT 
         p.id, 
-        p.templeofindia_uuid, 
+        p.temple_architecture_uuid, 
         p.name,
         p.image_url,
-        p.image_name, 
-        regexp_split_to_table(locales, ', ') AS local 
+        p.deity_name,
+        p.url,
+        regexp_split_to_table(p.locales, ', ') AS local 
       FROM 
-        "TempleOfIndia" p 
-
+        "TempleArchitecture" p  
     ), 
     split_parts AS (
       SELECT 
         id, 
-        templeofindia_uuid, 
+        temple_architecture_uuid, 
         name,  
         image_url, 
-        image_name, 
+        deity_name,
+        url,
         split_part(local, '-', 1) AS country_code, 
-        split_part(
-          split_part(local, '-', 2), 
-          '-', 
-          1
-        ) AS state_code, 
-        split_part(
-          split_part(local, '-', 3), 
-          '-', 
-          1
-        ) AS language_code 
+        split_part(local, '-', 2) AS state_code, 
+        split_part(local, '-', 3) AS language_code 
       FROM 
         split_locales
     ) 
     SELECT 
-      s.name as title, 
+      s.id,
+      s.name AS title, 
+      s.url AS url,
       s.image_url AS image_link, 
-      s.templeofindia_uuid AS uuid, 
+      s.temple_architecture_uuid AS uuid, 
       s.id AS content_id, 
-      s.image_name AS god_name, 
+      s.deity_name AS god_name,
+      '0' AS category_id,
       c.name AS country, 
       st.name AS state, 
-      l.name AS language 
+      l.name AS language,
+      'templeArchitecture' AS category,
+      'temples' AS subcategory,
+      'watch' as type
     FROM 
       split_parts s 
       JOIN "Country" c ON s.country_code = c.country_code 
       JOIN "Locations" st ON s.state_code = st.location_code 
-      JOIN "Languages" l ON s.language_code = l.language_code
+      JOIN "Languages" l ON s.language_code = l.language_code;
+    `;
     
     
-   
-     `;
 
 
     // const csvHeaders = [
@@ -294,7 +292,7 @@ async function fetchDataAndWriteCSV() {
     // ];
 
     const csvStream = format({ headers: true  });
-    const writeStream = createWriteStream('C:\\Users\\admin\\Downloads\\templeofIndia.csv');
+    const writeStream = createWriteStream('C:\\Users\\admin\\Downloads\\templeArchitecture.csv');
 
     // Pipe the CSV stream to the file
     csvStream.pipe(writeStream);
